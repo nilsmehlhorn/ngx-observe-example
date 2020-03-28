@@ -1,0 +1,14 @@
+<p *ngxObserve="value$ as value; before loadingTemplate; error errorTemplate"
+    class="message">
+  {{ value }}
+</p>
+<ng-template #loadingTemplate>
+  <p class="loading">Loading ...</p>
+</ng-template>
+<ng-template #errorTemplate let-error>
+  <p class="error">{{ error }}</p>
+</ng-template>
+<div>
+ <button (click)="createSuccess()">Create Observable</button>
+ <button (click)="createError()">Create Observable with Error</button>
+</div>

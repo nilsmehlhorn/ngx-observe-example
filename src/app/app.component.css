@@ -1,0 +1,15 @@
+p {
+  font-family: Lato;
+}
+
+.message {
+  color: #28a745
+}
+
+.error {
+  color: #dc3545
+}
+
+.loading {
+  color: #007bff
+}
