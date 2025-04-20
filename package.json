@@ -3,18 +3,18 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@angular/common": "^18.2.13",
-    "@angular/compiler": "^18.2.13",
-    "@angular/core": "^18.2.13",
-    "@angular/forms": "^18.2.13",
-    "@angular/platform-browser": "^18.2.13",
-    "@angular/platform-browser-dynamic": "^18.2.13",
-    "@angular/router": "^18.2.13",
+    "@angular/common": "^19.2.7",
+    "@angular/compiler": "^19.2.7",
+    "@angular/core": "^19.2.7",
+    "@angular/forms": "^19.2.7",
+    "@angular/platform-browser": "^19.2.7",
+    "@angular/platform-browser-dynamic": "^19.2.7",
+    "@angular/router": "^19.2.7",
     "core-js": "^2.6.12",
-    "ngx-observe": "^10.0.0",
+    "ngx-observe": "^11.0.0",
     "rxjs": "^6.6.3",
     "tslib": "^2.0.0",
-    "zone.js": "~0.14.10"
+    "zone.js": "~0.15.0"
   },
   "scripts": {
     "ng": "ng",
@@ -24,15 +24,15 @@
     "lint": "ng lint"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^18.2.18",
-    "@angular-eslint/builder": "18.4.3",
-    "@angular-eslint/eslint-plugin": "18.4.3",
-    "@angular-eslint/eslint-plugin-template": "18.4.3",
-    "@angular-eslint/schematics": "18.4.3",
-    "@angular-eslint/template-parser": "18.4.3",
-    "@angular/cli": "^18.2.18",
-    "@angular/compiler-cli": "^18.2.13",
-    "@angular/language-service": "^18.2.13",
+    "@angular-devkit/build-angular": "^19.2.8",
+    "@angular-eslint/builder": "19.3.0",
+    "@angular-eslint/eslint-plugin": "19.3.0",
+    "@angular-eslint/eslint-plugin-template": "19.3.0",
+    "@angular-eslint/schematics": "19.3.0",
+    "@angular-eslint/template-parser": "19.3.0",
+    "@angular/cli": "^19.2.8",
+    "@angular/compiler-cli": "^19.2.7",
+    "@angular/language-service": "^19.2.7",
     "@types/jasmine": "~3.8.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^18",
@@ -49,6 +49,6 @@
     "karma-jasmine-html-reporter": "^1.5.0",
     "ts-node": "~7.0.0",
     "tslint": "~6.1.0",
-    "typescript": "~5.4.5"
+    "typescript": "~5.8.3"
   }
 }

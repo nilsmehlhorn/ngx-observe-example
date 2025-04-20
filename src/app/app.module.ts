@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { NgxObserveModule } from 'ngx-observe';
+import { NgxObserveDirective } from 'ngx-observe';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, NgxObserveModule ],
+  imports:      [ BrowserModule, FormsModule, NgxObserveDirective ],
   declarations: [ AppComponent ],
   bootstrap:    [ AppComponent ]
 })
